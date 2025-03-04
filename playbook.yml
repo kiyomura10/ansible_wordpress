@@ -1,0 +1,10 @@
+- hosts: myhosts
+  become: true
+  roles:
+    - common
+    - php
+    - mysql
+    - cron
+    - nginx
+    - wordpress
+    
